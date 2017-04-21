@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		B41F4B401EA52D050002E3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B3F1EA52D050002E3EB /* AppDelegate.swift */; };
 		B41F4B421EA52D050002E3EB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B41F4B411EA52D050002E3EB /* GameScene.sks */; };
-		B41F4B441EA52D050002E3EB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B41F4B431EA52D050002E3EB /* Actions.sks */; };
 		B41F4B461EA52D050002E3EB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B451EA52D050002E3EB /* GameScene.swift */; };
 		B41F4B481EA52D050002E3EB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B471EA52D050002E3EB /* GameViewController.swift */; };
 		B41F4B4B1EA52D050002E3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41F4B491EA52D050002E3EB /* Main.storyboard */; };
 		B41F4B4D1EA52D050002E3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41F4B4C1EA52D050002E3EB /* Assets.xcassets */; };
 		B41F4B501EA52D050002E3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41F4B4E1EA52D050002E3EB /* LaunchScreen.storyboard */; };
+		B41F4B5B1EA52F100002E3EB /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B581EA52F100002E3EB /* WaitingForTap.swift */; };
+		B41F4B5C1EA52F100002E3EB /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B591EA52F100002E3EB /* Playing.swift */; };
+		B41F4B5D1EA52F100002E3EB /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B5A1EA52F100002E3EB /* GameOver.swift */; };
+		B4EEE00E1EA68A2300F062C9 /* FirstTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEE00D1EA68A2300F062C9 /* FirstTouch.swift */; };
+		B4EEE0101EA69CAC00F062C9 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEE00F1EA69CAC00F062C9 /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B41F4B3C1EA52D050002E3EB /* Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41F4B3F1EA52D050002E3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B41F4B411EA52D050002E3EB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B41F4B431EA52D050002E3EB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B41F4B451EA52D050002E3EB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B41F4B471EA52D050002E3EB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B41F4B4A1EA52D050002E3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B41F4B4C1EA52D050002E3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41F4B4F1EA52D050002E3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B41F4B511EA52D050002E3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41F4B581EA52F100002E3EB /* WaitingForTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingForTap.swift; sourceTree = "<group>"; };
+		B41F4B591EA52F100002E3EB /* Playing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
+		B41F4B5A1EA52F100002E3EB /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		B4EEE00D1EA68A2300F062C9 /* FirstTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTouch.swift; path = Breakout/FirstTouch.swift; sourceTree = "<group>"; };
+		B4EEE00F1EA69CAC00F062C9 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,11 @@
 		B41F4B3E1EA52D050002E3EB /* Breakout */ = {
 			isa = PBXGroup;
 			children = (
+				B41F4B571EA52EF20002E3EB /* Game States */,
 				B41F4B3F1EA52D050002E3EB /* AppDelegate.swift */,
 				B41F4B411EA52D050002E3EB /* GameScene.sks */,
-				B41F4B431EA52D050002E3EB /* Actions.sks */,
 				B41F4B451EA52D050002E3EB /* GameScene.swift */,
+				B4EEE00F1EA69CAC00F062C9 /* Block.swift */,
 				B41F4B471EA52D050002E3EB /* GameViewController.swift */,
 				B41F4B491EA52D050002E3EB /* Main.storyboard */,
 				B41F4B4C1EA52D050002E3EB /* Assets.xcassets */,
@@ -71,6 +80,18 @@
 				B41F4B511EA52D050002E3EB /* Info.plist */,
 			);
 			path = Breakout;
+			sourceTree = "<group>";
+		};
+		B41F4B571EA52EF20002E3EB /* Game States */ = {
+			isa = PBXGroup;
+			children = (
+				B4EEE00D1EA68A2300F062C9 /* FirstTouch.swift */,
+				B41F4B581EA52F100002E3EB /* WaitingForTap.swift */,
+				B41F4B591EA52F100002E3EB /* Playing.swift */,
+				B41F4B5A1EA52F100002E3EB /* GameOver.swift */,
+			);
+			name = "Game States";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +126,7 @@
 				TargetAttributes = {
 					B41F4B3B1EA52D050002E3EB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = B44P43AC6Y;
+						DevelopmentTeam = 6BD64MZKLN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +158,6 @@
 				B41F4B421EA52D050002E3EB /* GameScene.sks in Resources */,
 				B41F4B4D1EA52D050002E3EB /* Assets.xcassets in Resources */,
 				B41F4B501EA52D050002E3EB /* LaunchScreen.storyboard in Resources */,
-				B41F4B441EA52D050002E3EB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41F4B461EA52D050002E3EB /* GameScene.swift in Sources */,
+				B4EEE0101EA69CAC00F062C9 /* Block.swift in Sources */,
+				B41F4B5B1EA52F100002E3EB /* WaitingForTap.swift in Sources */,
 				B41F4B481EA52D050002E3EB /* GameViewController.swift in Sources */,
+				B41F4B5D1EA52F100002E3EB /* GameOver.swift in Sources */,
 				B41F4B401EA52D050002E3EB /* AppDelegate.swift in Sources */,
+				B4EEE00E1EA68A2300F062C9 /* FirstTouch.swift in Sources */,
+				B41F4B5C1EA52F100002E3EB /* Playing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +298,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B44P43AC6Y;
+				DEVELOPMENT_TEAM = 6BD64MZKLN;
 				INFOPLIST_FILE = Breakout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Breakout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nea.Breakout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,10 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B44P43AC6Y;
+				DEVELOPMENT_TEAM = 6BD64MZKLN;
 				INFOPLIST_FILE = Breakout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Breakout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nea.Breakout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -314,6 +339,7 @@
 				B41F4B561EA52D050002E3EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
