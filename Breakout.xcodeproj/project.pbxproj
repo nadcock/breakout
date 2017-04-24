@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B0097F1EADDD2600F97610 /* paddleBlip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01B0097B1EADDD2600F97610 /* paddleBlip.wav */; };
+		01B009801EADDD2600F97610 /* game-won.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01B0097C1EADDD2600F97610 /* game-won.mp3 */; };
+		01B009811EADDD2600F97610 /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01B0097D1EADDD2600F97610 /* game-over.wav */; };
+		01B009821EADDD2600F97610 /* pongblip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01B0097E1EADDD2600F97610 /* pongblip.wav */; };
 		B41F4B401EA52D050002E3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B3F1EA52D050002E3EB /* AppDelegate.swift */; };
 		B41F4B421EA52D050002E3EB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B41F4B411EA52D050002E3EB /* GameScene.sks */; };
 		B41F4B461EA52D050002E3EB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B451EA52D050002E3EB /* GameScene.swift */; };
@@ -17,11 +21,17 @@
 		B41F4B5B1EA52F100002E3EB /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B581EA52F100002E3EB /* WaitingForTap.swift */; };
 		B41F4B5C1EA52F100002E3EB /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B591EA52F100002E3EB /* Playing.swift */; };
 		B41F4B5D1EA52F100002E3EB /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4B5A1EA52F100002E3EB /* GameOver.swift */; };
+		B44A01601EAABA3200E05BF9 /* 8-BIT WONDER.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B44A015F1EAABA3200E05BF9 /* 8-BIT WONDER.TTF */; };
+		B44A01621EAABA4000E05BF9 /* gamer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B44A01611EAABA4000E05BF9 /* gamer.ttf */; };
 		B4EEE00E1EA68A2300F062C9 /* FirstTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEE00D1EA68A2300F062C9 /* FirstTouch.swift */; };
 		B4EEE0101EA69CAC00F062C9 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEE00F1EA69CAC00F062C9 /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B0097B1EADDD2600F97610 /* paddleBlip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = paddleBlip.wav; path = Sounds/paddleBlip.wav; sourceTree = "<group>"; };
+		01B0097C1EADDD2600F97610 /* game-won.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "game-won.mp3"; path = "Sounds/game-won.mp3"; sourceTree = "<group>"; };
+		01B0097D1EADDD2600F97610 /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "game-over.wav"; path = "Sounds/game-over.wav"; sourceTree = "<group>"; };
+		01B0097E1EADDD2600F97610 /* pongblip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pongblip.wav; path = Sounds/pongblip.wav; sourceTree = "<group>"; };
 		B41F4B3C1EA52D050002E3EB /* Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41F4B3F1EA52D050002E3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B41F4B411EA52D050002E3EB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -34,6 +44,8 @@
 		B41F4B581EA52F100002E3EB /* WaitingForTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingForTap.swift; sourceTree = "<group>"; };
 		B41F4B591EA52F100002E3EB /* Playing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
 		B41F4B5A1EA52F100002E3EB /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		B44A015F1EAABA3200E05BF9 /* 8-BIT WONDER.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-BIT WONDER.TTF"; sourceTree = "<group>"; };
+		B44A01611EAABA4000E05BF9 /* gamer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gamer.ttf; sourceTree = "<group>"; };
 		B4EEE00D1EA68A2300F062C9 /* FirstTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTouch.swift; path = Breakout/FirstTouch.swift; sourceTree = "<group>"; };
 		B4EEE00F1EA69CAC00F062C9 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +61,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B0097A1EADDCC600F97610 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				01B0097B1EADDD2600F97610 /* paddleBlip.wav */,
+				01B0097C1EADDD2600F97610 /* game-won.mp3 */,
+				01B0097D1EADDD2600F97610 /* game-over.wav */,
+				01B0097E1EADDD2600F97610 /* pongblip.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		B41F4B331EA52D050002E3EB = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +99,8 @@
 				B41F4B471EA52D050002E3EB /* GameViewController.swift */,
 				B41F4B491EA52D050002E3EB /* Main.storyboard */,
 				B41F4B4C1EA52D050002E3EB /* Assets.xcassets */,
+				01B0097A1EADDCC600F97610 /* Sounds */,
+				B44A015E1EAABA1600E05BF9 /* Fonts */,
 				B41F4B4E1EA52D050002E3EB /* LaunchScreen.storyboard */,
 				B41F4B511EA52D050002E3EB /* Info.plist */,
 			);
@@ -92,6 +117,15 @@
 			);
 			name = "Game States";
 			path = ..;
+			sourceTree = "<group>";
+		};
+		B44A015E1EAABA1600E05BF9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B44A01611EAABA4000E05BF9 /* gamer.ttf */,
+				B44A015F1EAABA3200E05BF9 /* 8-BIT WONDER.TTF */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41F4B4B1EA52D050002E3EB /* Main.storyboard in Resources */,
+				01B009811EADDD2600F97610 /* game-over.wav in Resources */,
+				B44A01621EAABA4000E05BF9 /* gamer.ttf in Resources */,
+				01B009821EADDD2600F97610 /* pongblip.wav in Resources */,
 				B41F4B421EA52D050002E3EB /* GameScene.sks in Resources */,
 				B41F4B4D1EA52D050002E3EB /* Assets.xcassets in Resources */,
+				B44A01601EAABA3200E05BF9 /* 8-BIT WONDER.TTF in Resources */,
+				01B009801EADDD2600F97610 /* game-won.mp3 in Resources */,
 				B41F4B501EA52D050002E3EB /* LaunchScreen.storyboard in Resources */,
+				01B0097F1EADDD2600F97610 /* paddleBlip.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
